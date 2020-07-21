@@ -1,0 +1,32 @@
+Find out Questions:
+1> what is meta Tag and how it works?
+   Ans:The "meta" is info in the head.
+        The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data. 
+       charset = character set utf-8 is character encoding capable of encoding all characters on the web.
+        UTF-8 - Character encoding for Unicode.
+       ISO-8859-1 - Character encoding for the Latin alphabetIt replaced ascii as the default character encoding.
+       Because it is the default all modern browsers will use utf-8 without being explicitly told to do so.
+       It remains in meta data as a common good practice.
+          Example: <!DOCTYPE html>
+                           <html>
+                             <head>
+                              <meta charset="UTF-8">
+                             </head>
+                             <body>
+                               <h1>My Website</h1>
+                                <p>Some text...</p>
+                              </body>
+                             </html>
+2>What is breakPoint?
+    ans:Due to the fact that Bootstrap is certainly built to get mobile first, we use a number of media queries to design sensible breakpoints for styles and interfaces .
+ These Bootstrap Breakpoints Grid are typically based on minimum viewport widths and enable us to graduate up elements when the viewport changes.
+Bootstrap mostly makes use of the following media query extends-- or breakpoints-- in source Sass documents for layout, grid system, and components.
+
+ Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)  ... 
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px)  ... 
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px)  ... 
